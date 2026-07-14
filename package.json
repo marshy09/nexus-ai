@@ -1,0 +1,19 @@
+{
+  "name": "nexus-ai",
+  "private": true,
+  "version": "0.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "npm run dev -w apps/client",
+    "build": "npm run build -w apps/client",
+    "lint": "npm run lint -w apps/client",
+    "preview": "npm run preview -w apps/client"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.110.4",
+    "react-hot-toast": "^2.6.0"
+  }
+}
