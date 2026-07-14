@@ -1,33 +1,29 @@
 export default function DashboardPage() {
   return (
-    <main
-      style={{
-        minHeight: "100vh",
-        display: "grid",
-        placeItems: "center",
-        background: "#020617",
-        color: "#ffffff",
-      }}
-    >
-      <div>
-        <h1
-          style={{
-            fontSize: "3rem",
-            fontWeight: "bold",
-          }}
-        >
-          Nexus AI
-        </h1>
+    <section>
+      <h1
+        style={{
+          fontSize: "2.5rem",
+          fontWeight: 700,
+        }}
+      >
+        Dashboard
+      </h1>
 
-        <p
-          style={{
-            color: "#94a3b8",
-            marginTop: "1rem",
-          }}
-        >
-          Dashboard
-        </p>
-      </div>
-    </main>
+      <p
+        style={{
+          marginTop: "1rem",
+          color: "#94a3b8",
+          maxWidth: "700px",
+          lineHeight: 1.8,
+        }}
+      >
+        Welcome to Nexus AI.
+
+        This dashboard will become the central workspace for AI chat,
+        document analysis, image generation, projects, billing,
+        analytics, and much more.
+      </p>
+    </section>
   );
 }
